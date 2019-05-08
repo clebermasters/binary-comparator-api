@@ -42,7 +42,7 @@
 	
 	mvn package
 
-• Only Test
+• Perform Unit Test
 	
 	mvn test
 
@@ -54,7 +54,6 @@
 	
 	cd BinaryComparatorAPI
 	mvn package
-	cp target/cpr-api.war $TOMCAT_FOLDER/webapps
 
 • Notes
 	
