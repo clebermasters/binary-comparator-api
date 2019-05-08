@@ -1,7 +1,7 @@
 # BinaryComparatorAPI
 
 	
-## The assignment
+## The API
 
 • Provide 2 http endpoints that accepts JSON base64 encoded binary data on both endpoints
 
@@ -45,7 +45,11 @@
 • Only Test
 	
 	mvn test
+
+• Integration Test
 	
+	mvn clean verify -Pfailsafe	
+
 • Install
 	
 	cd BinaryComparatorAPI
